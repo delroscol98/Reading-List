@@ -5,10 +5,15 @@ function App () {
     const [books, setBooks] = useState([])
 
     const createBook = (title) => {
-        console.log('Need to add books with: ', title)
+        const updatedBooks = [
+            ...books,
+            { id: 123, title }
+        ]
+        setBooks(updatedBooks)
     }
 
     return <div>
+        {books.length}
         <BookCreate onSubmit={createBook}/> 
     </div>
 }
