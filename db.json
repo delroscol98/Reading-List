@@ -1,11 +1,11 @@
 {
   "books": [
     {
-      "title": "A Good Book",
+      "title": "Book",
       "id": 1
     },
     {
-      "title": "Harry Potter",
+      "title": "Another Book",
       "id": 2
     }
   ]
